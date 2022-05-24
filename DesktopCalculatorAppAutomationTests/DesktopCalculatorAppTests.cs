@@ -22,6 +22,8 @@ namespace DesktopCalculatorAppAutomationTests
         [TestCase("-1", "-1", "-2")]
         [TestCase("-1", "2", "1")]
         [TestCase("0", "0", "0")]
+        [TestCase("2.2", "2.2", "4.4")]
+        [TestCase("-2.2", "-2.2", "-4.4")]
         [TestCase("1a", "1A", "error")]
         [TestCase("12", "", "error")]
         [TestCase("", "12", "error")]
